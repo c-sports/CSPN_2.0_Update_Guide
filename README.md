@@ -8,7 +8,7 @@
 
 3. Choose a destination and save the file as **wallet.dat**.
 
-**Tip: Back up your wallet frequently and keep it on an external storage device.**
+**Tip: Back up your wallet frequently and keep the backup on an external storage device.**
 
 ***
 
@@ -26,7 +26,7 @@
 C:\Users\Username\AppData\Roaming\CSPN
 ```
 
-Tip: It is easier to locate the folder when you have the displaying of hidden files activated (search in google for: show hidden files in windows [your version]).
+Tip: You can quick navigate to the folder by pasting **%APPDATA%\CSPN** into the windows explorer navigation bar.
 
 **MAC**
 
@@ -34,13 +34,18 @@ Tip: It is easier to locate the folder when you have the displaying of hidden fi
 /Users/Username/Library/Application Support/CSPN
 ```
 
-Tip: It is easier to locate the folder when you have the displaying of hidden files activated. To show hidden files on MAC OS X open up the terminal and type:
+Tip: You can quick navigate to the folder by opening **Finder**, clicking on **Go -> Go to Folder** and pasting **~/Library/Application Support/CSPN**.
+
+**Linux**
 
 ```
-defaults write com.apple.finder AppleShowAllFiles YES (NO to deactivate again)
-killall Finder
+/home/username/.cspn
 ```
+
+Tip: You can quick navigate to the folder by opening **File Explorer**, clicking on **Go -> Enter Location** and pasting **~/.cspn**.
 
 4. Copy & paste your backed up CSPN 1.0 wallet.dat into the CSPN 2.0 data folder and override the existing file.
 
 5. Now open up your CSPN 2.0 wallet. Your balances should be there.
+
+Done.

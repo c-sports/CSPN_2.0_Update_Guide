@@ -18,7 +18,7 @@
 
 2. Start the wallet, follow the wizard and then close it again.
 
-3. Now we need to navigate to the CSPN 2.0 data folder which you will find here:
+3. Now we need to navigate to the CSPN 2.0 data folder which you will find here by default:
 
 **Windows**
 

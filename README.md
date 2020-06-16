@@ -23,10 +23,10 @@
 **Windows**
 
 ```
-C:\Users\Username\AppData\Roaming\CSPN
+C:\Users\Username\AppData\Roaming\CSPN\wallets
 ```
 
-Tip: You can quick navigate to the folder by pasting **%APPDATA%\CSPN** into the windows explorer navigation bar.
+Tip: You can quick navigate to the folder by pasting **%APPDATA%\CSPN\wallets** into the windows explorer navigation bar.
 
 **MAC**
 

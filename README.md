@@ -49,3 +49,11 @@ Tip: You can quick navigate to the folder by opening **File Explorer**, clicking
 5. Now open up your CSPN 2.0 wallet. Your balances should be there.
 
 Done.
+
+## Temporary POS Display Bug Fix
+
+When staking an orphaned block it happens that the staked coins are not being released automatically which looks like your balance decreased. Of course, this is not the case and just a display bug. As a temporary fix please add the following line to your **cspn.conf** file (which you will find in the data folder of the wallet) and save it:
+
+```zapwallettxes=1```
+
+Now whenever you realize that your balance seem to have decreased just restart your wallet and your balance should be correct again.
